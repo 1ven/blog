@@ -21,7 +21,6 @@
   &__excerpt {
     p {
       font-size: 16px;
-      margin: 0;
     }
   }
   &__meta {
@@ -41,6 +40,13 @@
     background: #FFF;
     border-radius: 100%;
     box-shadow: #FFF 0 0 0 5px;
+  }
+  &:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    &:after {
+      display: none;
+    }
   }
 }
 
