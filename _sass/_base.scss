@@ -201,6 +201,8 @@ table.plain tbody > tr:nth-child(odd) > th {
 }
 
 img {
+  margin: 1em 0 $line_height_em 0;
   max-width: 100%;
   height: auto;
+  display: block;
 }
