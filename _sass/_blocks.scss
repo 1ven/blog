@@ -66,11 +66,13 @@
 
 .b-header {
   width: 85%;
-  margin: 25px auto 50px;
-  padding-bottom: 25px;
-  border-bottom: #EBF2F6 1px solid;
-  display: flex;
-  align-items: center;
+  margin: 0 auto 50px;
+  &__wrap {
+    border-bottom: #EBF2F6 1px solid;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+  }
   &__social {
     margin-left: auto;
     display: flex;
@@ -93,11 +95,13 @@
 }
 
 .b-footer {
-  padding: 25px 0;
-  border-top: #EBF2F6 1px solid;
   width: 85%;
   margin: 50px auto 0;
   text-align: center;
   font-size: 14px;
   color: #9EABB3;
+  &__wrap {
+    border-top: #EBF2F6 1px solid;
+    padding: 25px 0;
+  }
 }
