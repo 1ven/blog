@@ -10,6 +10,12 @@
   hr {
     margin: 40px 0;
   }
+
+  .b-full-post {
+    &__header {
+      margin-bottom: 22px;
+    }
+  }
 }
 
 @media (max-width: 768px) {
@@ -60,6 +66,12 @@
     }
     &__meta {
       font-size: 13px;
+    }
+  }
+
+  .b-full-post {
+    &__header {
+      margin-bottom: 18px;
     }
   }
 }

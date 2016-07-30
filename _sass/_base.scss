@@ -62,8 +62,11 @@ a:hover {
   color: #111;
 }
 
-p, ul, ol, dl {
-  margin: 0 0 $line_height_em 0;
+p, ul, ol, dl, pre, table, blockquote  {
+  margin: $line_height_em 0;
+  &:first-child {
+    margin-top: 0;
+  }
   &:last-child {
     margin-bottom: 0;
   }
@@ -99,7 +102,7 @@ hr {
 blockquote {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin: $line_height_em 0 $line_height_em -2.2em;
+  margin-left: -2.2em;
   padding: 0 0 0 $line_height_em;
   border-left: #4A4A4A 0.4em solid;
 }
@@ -129,15 +132,11 @@ code, tt {
   border: #E3EDF3 1px solid;
   background: #F7FAFB;
   border-radius: 2px;
-  -webkit-font-feature-settings: "liga" 0;
-  -moz-font-feature-settings: "liga" 0;
-  font-feature-settings: "liga" 0;
 }
 
 pre {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 0 0 $line_height_em 0;
   border: #E3EDF3 1px solid;
   width: 100%;
   padding: 10px;
@@ -160,7 +159,6 @@ pre code, pre tt {
 table {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 0 0 $line_height_em 0;
   width: 100%;
   max-width: 100%;
   background-color: transparent;
