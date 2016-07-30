@@ -43,3 +43,16 @@
     box-shadow: #FFF 0 0 0 5px;
   }
 }
+
+.b-full-post {
+  &__title {
+    margin-bottom: 0;
+  }
+  &__date {
+    font-size: 13px;
+    color: #9EABB3;
+  }
+  &__header {
+    margin-bottom: 34px;
+  }
+}
