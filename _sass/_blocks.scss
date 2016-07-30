@@ -3,3 +3,43 @@
   max-width: 710px;
   margin: 0 auto;
 }
+
+.b-post {
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: #EBF2F6 1px solid;
+  position: relative;
+  &__header {
+    margin-bottom: 13px;
+  }
+  &__title {
+    margin-bottom: 0;
+  }
+  &__link {
+    text-decoration: none;
+  }
+  &__excerpt {
+    p {
+      font-size: 16px;
+      margin: 0;
+    }
+  }
+  &__meta {
+    margin-top: 15px;
+    color: #9EABB3;
+    font-size: 15px;
+  }
+  &:after {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border: #E7EEF2 1px solid;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    margin-left: -5px;
+    background: #FFF;
+    border-radius: 100%;
+    box-shadow: #FFF 0 0 0 5px;
+  }
+}
