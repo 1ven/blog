@@ -1,4 +1,8 @@
 @media (max-width: 992px) {
+  body {
+    font-size: 17px;
+  }
+
   blockquote {
     margin-left: 0;
   }
@@ -38,6 +42,10 @@
 }
 
 @media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
   .b-container {
     width: 100%;
     padding: 0 16px;
@@ -75,5 +83,15 @@
 
   h6 {
     font-size: 18px;
+  }
+
+  .b-post {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    &__excerpt {
+      p {
+        font-size: 14px;
+      }
+    }
   }
 }
