@@ -1,6 +1,79 @@
+@media (max-width: 992px) {
+  blockquote {
+    margin-left: 0;
+  }
+
+  hr {
+    margin: 2.4em 0;
+  }
+
+  ol, ul {
+    padding-left: 2em;
+  }
+
+  h1 {
+    font-size: 45px;
+    text-indent: -2px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 31px;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
+
+  h5 {
+    font-size: 22px;
+  }
+
+  h6 {
+    font-size: 18px;
+  }
+}
+
 @media (max-width: 768px) {
   .b-container {
     width: 100%;
     padding: 0 16px;
+  }
+
+  hr {
+    margin: 1.75em 0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 0.3em 0;
+  }
+
+  h1 {
+    font-size: 28px;
+    letter-spacing: -1px;
+  }
+
+  h2 {
+    font-size: 24px;
+    letter-spacing: 0;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  h4 {
+    font-size: 19px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  h6 {
+    font-size: 18px;
   }
 }
