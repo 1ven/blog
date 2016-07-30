@@ -1,5 +1,6 @@
 // figure out before apply
 // convert vertical offsets unit types to `em`
+// all typographic elements should have `em` units type at offsets and `px` in font-size.
 
 html {
   box-sizing: border-box;
@@ -31,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
   -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   color: #2E2E2E;
   line-height: 1.15em;
-  margin: 0 0 14px 0;
+  margin: 0 0 .4em 0;
   font-family: "Open Sans", sans-serif;
   text-rendering: geometricPrecision;
 }
@@ -77,7 +78,7 @@ p, ul, ol, dl {
   -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
   -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
   -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
-  margin: 0 0 30px 0;
+  margin: 0 0 1.75em 0;
   text-rendering: geometricPrecision;
   &:last-child {
     margin-bottom: 0;
@@ -90,12 +91,12 @@ ol, ul {
 
 ol ol, ul ul,
 ul ol, ol ul {
-  margin: 0 0 31px 0;
-  padding-left: 36px;
+  margin: 0 0 .4em 0;
+  padding-left: 2em;
 }
 
 li {
-  margin: 7px 0;
+  margin: .4em 0;
 }
 
 li li {
@@ -107,20 +108,20 @@ hr {
   height: 1px;
   border: 0;
   border-top: #EFEFEF 1px solid;
-  margin: 57px 0;
+  margin: 3.2em 0;
   padding: 0;
 }
 
 blockquote {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 31px 0 31px -39px;
-  padding: 0 0 0 31px;
-  border-left: #4A4A4A 7px solid;
+  margin: 1.75em 0 1.75em -2.2em;
+  padding: 0 0 0 1.75em;
+  border-left: #4A4A4A 0.4em solid;
 }
 
 blockquote p {
-  margin: 14px 0;
+  margin: 0.8em 0;
   font-style: italic;
 }
 
@@ -152,7 +153,7 @@ code, tt {
 pre {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 0 0 28px 0;
+  margin: 0 0 1.75em 0;
   border: #E3EDF3 1px solid;
   width: 100%;
   padding: 10px;
@@ -175,7 +176,7 @@ pre code, pre tt {
 table {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 31px 0;
+  margin: 1.75em 0;
   width: 100%;
   max-width: 100%;
   background-color: transparent;
