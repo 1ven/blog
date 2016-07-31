@@ -35,8 +35,7 @@ To start server, simply run `npm run fake-server` command.
 
 All our data will be stored in `json` files, instead of database. `db.json` file will be created, when you will run `json-server` first time. If you need to have some dumb data initially, you can add it to this file by hand, it would not be overwritten by server:
 
-```
-// Will create todos entries.
+```json
 {
   "todos": [
     {
@@ -61,7 +60,7 @@ Below, there are basic examples of CRUD requests:
 
 `GET` request. Returns all entries of requested type:
 
-```
+```javascript
 xhr({
   method: 'GET',
   uri: 'http://localhost:1337/todos',
@@ -75,7 +74,7 @@ xhr({
 
 `POST` request. Creates entry of particular type.
 
-```
+```javascript
 xhr({
   method: 'POST',
   uri: 'http://localhost:1337/todos',
@@ -91,7 +90,7 @@ xhr({
 
 `PATCH` request. Updates particular entry fields. To update whole entry use `PUT` instead.
 
-```
+```javascript
 xhr({
   method: 'PATCH',
   uri: 'http://localhost:1337/todos/2',
@@ -106,7 +105,7 @@ xhr({
 
 `DELETE` request. Removes entry.
 
-```
+```javascript
 xhr({
   method: 'DELETE',
   uri: 'http://localhost:1337/todos/1',
