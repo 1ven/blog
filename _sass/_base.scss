@@ -61,7 +61,8 @@ a:hover {
   color: #111;
 }
 
-p, ul, ol, dl, pre, table, blockquote  {
+p, ul, ol, dl, pre, table,
+blockquote, .highlighter-rouge {
   margin: 0 0 $line_height_em 0;
   &:last-child {
     margin-bottom: 0;
