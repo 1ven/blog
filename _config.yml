@@ -19,3 +19,6 @@ url: "http://1ven.me" # the base hostname & protocol for your site
 markdown: kramdown
 highlighter: rouge
 excerpt_separator: <!--more-->
+
+# Outputting
+permalink: /:title.html
