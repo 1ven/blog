@@ -3,6 +3,7 @@ layout: post
 title:  "Building fake RESTful API for your single-page applications"
 date:   2016-07-31 07:26:00 +0300
 categories: REST
+comments: true
 ---
 Sometimes, when you start building single-page applications, server is not implemented yet, but you need to work. In this situations you need to have a fake server, which will be handling your api requests.
 <!--more-->
