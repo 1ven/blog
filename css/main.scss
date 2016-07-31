@@ -6,4 +6,4 @@
 $line_height: 1.75;
 $line_height_em: $line_height + em;
 
-@import "lib/normalize", "base", "blocks", "breakpoints";
+@import "lib/normalize", "syntax", "base", "blocks", "breakpoints";

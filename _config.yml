@@ -17,4 +17,5 @@ url: "http://1ven.me" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 excerpt_separator: <!--more-->
