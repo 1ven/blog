@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Building fake RESTful API for your single-page applications"
-date:   2016-07-31 07:26:00 +0300
+title: "Building fake RESTful API for your single-page applications"
+date: 2016-07-31 07:26:00 +0300
 categories: REST
 comments: true
 ---
