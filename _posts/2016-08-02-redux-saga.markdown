@@ -8,7 +8,7 @@ comments: true
 When your application grows up, it becomes difficult to manage side-effects. In my opinion, using `redux-thunk` package is good for small applications, where your side effects are mostly CRUD operations with remote API. One of possible solutions to simplify managing side effects is `redux-saga` package.
 <!--more-->
 
-Redux-saga built using es6-generators. If you are not familiar with them, first I suggest you to read about it at this [link](http://gajus.com/blog/2/the-definitive-guide-to-the-javascript-generators), before this article.
+Redux-saga built using es6-generators. If you are not familiar with them, first I suggest you to read about it at this [link](http://gajus.com/blog/2/the-definitive-guide-to-the-javascript-generators).
 
 This package provides convinient way to manage your side effects in redux applications. Along with actions, you should create `sagas`. They are generator functions, where you are will be handling your async flow.
 
@@ -96,10 +96,3 @@ export default function* () {
   ];
 };
 ```
-
-/* Find advantages of redux saga over redux-thunk. */
-
-### Conclusion
-
-At the first sight it can seem that `redux-saga` has no advantages over regular `redux-thunk` package.
-But in my opinion, using this approach, you are getting more clear code architechture.
